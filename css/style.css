@@ -346,15 +346,12 @@ em {
   max-width: 1268px;
   width: 100%;
   margin: 33px auto;
-
 }
 
-.photo-map {
+.map {
   max-width: 1268px;
   width: 100%;
-  max-height: 370px;
-  height: auto;
-
+  height: 370px;
 }
 
 .phone {
