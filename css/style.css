@@ -1,0 +1,407 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  min-height: 100vh;
+  min-width: 400px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 16px;
+  max-width: 1300px;
+  width: 100%;
+  min-height: 80px;
+  background-color: #213B7E;
+  align-items: center;
+}
+
+
+.site-menu {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-self: stretch;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.site-menu>li {
+  display: flex;
+
+}
+
+.menu-link {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0 18px;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #213B7E;
+  color: #FFFFFF;
+}
+
+.menu-link:hover {
+  display: flex;
+  background-color: #FFFFFF;
+  color: #213B7E;
+  text-decoration: none;
+
+}
+
+.active {
+  display: flex;
+  background-color: #FFFFFF;
+  color: #213B7E;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 18px;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 153px;
+  min-height: 50px;
+  background-color: #EA5D21;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+/*popup*/
+
+.login-popup {
+  display: none;
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -88%);
+  box-sizing: border-box;
+  max-width: 500px;
+  width: 100%;
+  min-height: 418px;
+  padding: 26px 28px 50px;
+  background: #FFFFFF;
+  border: 1px solid #213B7E;
+  background-color: #FFFFFF;
+}
+
+.login-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  text-align: center;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-form>input {
+  max-width: 444px;
+  width: 100%;
+  min-height: 54px;
+  margin-bottom: 56px;
+  background-color: #FFFFFF;
+  border: 1px solid #808080;
+  font-size: 24px;
+  color: #808080;
+  padding: 10px;
+}
+
+.button-popup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 152px;
+  min-height: 50px;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #EA6113;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.show-popup {
+  display: block;
+}
+
+.content-main {
+  flex-grow: 1;
+  margin: 0 auto;
+  max-width: 911px;
+  width: 100%;
+}
+
+.main-heading {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.photo-class {
+  max-width: 523px;
+  width: 100%;
+  height: 316px;
+  height: auto;
+
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.intro-text {
+  max-width: 634px;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+
+}
+
+.text-together {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+.lobster {
+  display: flex;
+  align-items: center;
+  width: 183px;
+  height: 125px;
+  margin: 0;
+  font-family: 'Lobster', cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  color: #646464;
+}
+
+em {
+  color: #CF5510;
+}
+
+.footer {
+  flex-wrap: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 16px;
+  max-width: 1300px;
+  width: 100%;
+  min-height: 60px;
+  background-color: #213B7E;
+}
+
+.copyright {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0;
+}
+
+.innopolis-link {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/*students*/
+
+.main-students {
+  flex-grow: 1;
+  max-width: 1202px;
+  width: 100%;
+  margin: 37px auto;
+
+
+}
+
+.students {
+  max-width: 1202px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  gap: 20px 50px;
+}
+
+
+.name-student {
+  display: block;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1);
+}
+
+.studentt-link {
+  text-decoration: none;
+}
+
+.student-new {
+  position: relative;
+}
+
+.student-new::after {
+  display: inline-block;
+  width: 94px;
+  position: absolute;
+  content: 'НОВИЧОК';
+  top: 0;
+  right: -12%;
+  transform: translate(-10px, -50%);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #3aa828;
+  border-radius: 20px;
+
+}
+
+.stud-photo {
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+
+
+}
+
+/*aboutcurse*/
+
+.main-about {
+  flex-grow: 1;
+  max-width: 820px;
+  width: 100%;
+  height: auto;
+  margin: 33px auto;
+}
+
+
+
+.video {
+  margin-bottom: auto;
+  max-width: 820px;
+  width: 100%;
+  max-height: 550px;
+  height: auto;
+  border: 2px solid rgba(234, 93, 33, 1);
+}
+
+/*contacts*/
+
+.main-contacts {
+  flex-grow: 1;
+  max-width: 1268px;
+  width: 100%;
+  margin: 33px auto;
+
+}
+
+.photo-map {
+  max-width: 1268px;
+  width: 100%;
+  max-height: 370px;
+  height: auto;
+
+}
+
+.phone {
+  max-width: 634px;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.contactmargin {
+  margin-left: 16%;
+}
+
+/*doctor*/
+
+.livsi-img {
+  max-width: 604px;
+  width: 100%;
+  max-height: 604px;
+  height: 100%;
+}
+
+@media (max-width: 710px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+
+
+
+@media (max-width: 840px) {
+  .login-popup {
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media (max-width: 448px) {
+  .students {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+}
