@@ -385,7 +385,7 @@ em {
   }
 }
 
-@media (max-width: 840px) {
+@media (max-width: 1200px) {
   .login-popup {
     transform: translate(-50%, -50%);
   }
@@ -406,8 +406,8 @@ em {
   .main-students,
   .main-about,
   .main-contacts {
-    padding-left: 2vh;
-    padding-right: 2vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
 
   }
 }
